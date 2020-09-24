@@ -42,7 +42,7 @@ const Chart = (props) => {
     ></Line>
   ) : (
     <Grid container direction="row" justify="center" alignItems="center">
-      Line Chat is unavailable for {data.country}
+      Line Chart is unavailable for {data.country}
     </Grid>
   );
 
